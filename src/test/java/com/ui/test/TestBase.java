@@ -48,7 +48,7 @@ public class TestBase {
 		if (isLamdaTest) {
 			LamdaTestUtility.quitSession();
 		} else {
-			// homePage.quit();
+			homePage.quit();
 		}
 	}
 }
