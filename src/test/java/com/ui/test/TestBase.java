@@ -35,7 +35,7 @@ public class TestBase {
 		else {
 			//running test on local machine
 			logger.info("Load the home page of the website");
-			homePage = new HomePage(Browser.valueOf(browser.toUpperCase()), isHeadLess);
+			homePage = new HomePage(Browser.valueOf("chrome".toUpperCase()), isHeadLess);
 		}
 	}
 
