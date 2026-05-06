@@ -16,6 +16,7 @@ import com.utility.LoggerUtility;
 
 public class TestBase {
 	protected HomePage homePage;
+	protected String browser;
 	Logger logger = LoggerUtility.getLogger(this.getClass());
 	private boolean isLamdaTest;
 
@@ -24,18 +25,20 @@ public class TestBase {
 	public void setup(
 			@Optional("chrome") String browser, 
 			@Optional("false") boolean isLamdaTest, 
-			@Optional("true") boolean isHeadLess, ITestResult result) {
+			@Optional("true") boolean isHeadLess) {
 		this.isLamdaTest = isLamdaTest;
+		this.browser=browser;
+		String testName = Thread.currentThread().getName();
 		WebDriver lamdaDriver;
 		if (isLamdaTest) {
-			lamdaDriver = LamdaTestUtility.intializeLamdaTestSession(browser, result.getMethod().getMethodName());
+			lamdaDriver = LamdaTestUtility.intializeLamdaTestSession(browser,testName);
 			homePage = new HomePage(lamdaDriver);
 		}
 
 		else {
 			//running test on local machine
 			logger.info("Load the home page of the website");
-			homePage = new HomePage(Browser.valueOf("chrome".toUpperCase()), isHeadLess);
+			homePage = new HomePage(Browser.valueOf(browser.toUpperCase()), isHeadLess);
 		}
 	}
 

@@ -4,7 +4,7 @@
 	<test name="UI Automation Test">
 		<parameter name="browser" value="${browser}" />
 		<parameter name="isLamdaTest" value="${isLamdaTest}" />
-		<parameter name="isHeadless" value="${isHeadless}" />
+		<parameter name="isHeadLess" value="${isHeadLess}" />
 
 		<classes>
 			<class name="com.ui.test.LoginTest" />
