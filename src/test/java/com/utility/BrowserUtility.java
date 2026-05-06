@@ -3,6 +3,7 @@ package com.utility;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
@@ -18,6 +19,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.constant.Browser;
 
@@ -44,8 +47,8 @@ public abstract class BrowserUtility {
 		if (browserName == Browser.CHROME) {
 			if (isHeadless) {
 				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--headless=old");
-				options.addArguments("--window-sized=1920,1080");
+				options.addArguments("--headless=new");
+				options.addArguments("--window-size=1920,1080");
 				driver.set(new ChromeDriver(options));
 
 			} else {
@@ -54,8 +57,8 @@ public abstract class BrowserUtility {
 		} else if (browserName == Browser.EDGE) {
 			if (isHeadless) {
 				EdgeOptions options = new EdgeOptions();
-				options.addArguments("--headless=old");
-				options.addArguments("--disbale-gpu");
+				options.addArguments("--headless=new");
+				options.addArguments("--disable-gpu");
 				driver.set(new EdgeDriver(options));
 			} else {
 				driver.set(new EdgeDriver());
@@ -63,8 +66,8 @@ public abstract class BrowserUtility {
 		} else if (browserName == Browser.FIREFOX) {
 			if (isHeadless) {
 				FirefoxOptions options = new FirefoxOptions();
-				options.addArguments("--headless=old");
-				options.addArguments("--disbale-gpu");
+				options.addArguments("--headless=new");
+				options.addArguments("--disable-gpu");
 				driver.set(new FirefoxDriver(options));
 			} else {
 				driver.set(new FirefoxDriver());
@@ -86,26 +89,26 @@ public abstract class BrowserUtility {
 
 	public void clickOn(By locator) {
 		logger.info("Findling element with locator" + locator);
-		WebElement element = driver.get().findElement(locator);
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(15));
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
 		logger.info("Element found and now performing click operation ");
-
 		element.click();
 	}
 
 	public void enterText(By locator, String textToEnter) {
 		logger.info("Findling element with locator" + locator);
-		WebElement element = driver.get().findElement(locator);
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(15));
+		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		logger.info("Element found and now entering text");
 		element.sendKeys(textToEnter);
 	}
 
 	public String getVisibleText(By locator) {
 		logger.info("Findling element with locator" + locator);
-		WebElement element = driver.get().findElement(locator);
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(15));
+		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		logger.info("Element found and now returning the text" + element.getText());
-
 		return element.getText();
-
 	}
 
 	public String takeScreenshot(String name) {
