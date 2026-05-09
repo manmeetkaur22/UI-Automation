@@ -1,83 +1,46 @@
-2026-05-124 {main} INFO com.ui.listeners.TestListeners Test suite started 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.test.LoginTest Load the home page of the website 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Launching the browserCHROME 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.test.LoginTest Load the home page of the website 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.HomePage Launching the browserCHROME 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Visting the websitehttps://automationpractice.techwithjatin.com/ 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.HomePage Visting the websitehttps://automationpractice.techwithjatin.com/ 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.listeners.TestListeners loginTest 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.listeners.TestListeners Verify with valid user is able to login into application 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.listeners.TestListeners [e2e, sanity] 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.HomePage Trying to perform login in the login page 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.HomePage Findling element with locatorBy.xpath: //a[contains(text(),'Sign in')] 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.HomePage Element found and now performing click operation  
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners loginCSVTest 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners Verify with valid user is able to login into application 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners [e2e, sanity] 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Trying to perform login in the login page 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Findling element with locatorBy.xpath: //a[contains(text(),'Sign in')] 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Element found and now performing click operation  
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: email 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.LoginPage Element found and now entering text 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: passwd 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.LoginPage Element found and now entering text 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: email 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now entering text 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: SubmitLogin 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.LoginPage Element found and now performing click operation  
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: passwd 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now entering text 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.MyAccountPage Findling element with locatorBy.xpath: //a[@title="View my customer account"]/span 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: SubmitLogin 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now performing click operation  
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.pages.MyAccountPage Element found and now returning the textManmeet Kaur 
-2026-05-124 {TestNG-test-UI Automation Test-2} INFO com.ui.listeners.TestListeners loginTest PASSED 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.MyAccountPage Findling element with locatorBy.xpath: //a[@title="View my customer account"]/span 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.MyAccountPage Element found and now returning the textManmeet Kaur 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners loginCSVTest PASSED 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.test.LoginTest Load the home page of the website 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Launching the browserCHROME 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Visting the websitehttps://automationpractice.techwithjatin.com/ 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners loginCSVTest 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners Verify with valid user is able to login into application 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners [e2e, sanity] 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Trying to perform login in the login page 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Findling element with locatorBy.xpath: //a[contains(text(),'Sign in')] 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Element found and now performing click operation  
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: email 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now entering text 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: passwd 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now entering text 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: SubmitLogin 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now performing click operation  
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.MyAccountPage Findling element with locatorBy.xpath: //a[@title="View my customer account"]/span 
-2026-05-124 {TestNG-test-UI Automation Test-1} WARN com.ui.listeners.TestListeners loginCSVTest SKIPPED 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.test.LoginTest Load the home page of the website 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Launching the browserCHROME 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Visting the websitehttps://automationpractice.techwithjatin.com/ 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners loginCSVTest 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners Verify with valid user is able to login into application 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners [e2e, sanity] 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Trying to perform login in the login page 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Findling element with locatorBy.xpath: //a[contains(text(),'Sign in')] 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.HomePage Element found and now performing click operation  
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: email 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now entering text 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: passwd 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now entering text 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Findling element with locatorBy.id: SubmitLogin 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.LoginPage Element found and now performing click operation  
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.pages.MyAccountPage Findling element with locatorBy.xpath: //a[@title="View my customer account"]/span 
-2026-05-124 {TestNG-test-UI Automation Test-1} ERROR com.ui.listeners.TestListeners loginCSVTest FAILED 
-2026-05-124 {TestNG-test-UI Automation Test-1} ERROR com.ui.listeners.TestListeners no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
-  (Session info: chrome=147.0.7727.116)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+2026-05-129 {main} INFO com.ui.listeners.TestListeners Test suite started 
+2026-05-129 {main} INFO com.ui.test.ProductCheckoutTest Load the home page of the website 
+2026-05-129 {main} INFO com.ui.pages.HomePage Launching the browserCHROME 
+2026-05-129 {main} INFO com.ui.pages.HomePage Visting the websitehttps://automationpractice.techwithjatin.com/ 
+2026-05-129 {main} INFO com.ui.pages.HomePage Trying to perform login in the login page 
+2026-05-129 {main} INFO com.ui.pages.HomePage Finding element with locatorBy.xpath: //a[contains(text(),'Sign in')] 
+2026-05-129 {main} INFO com.ui.pages.HomePage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.LoginPage Finding element with locatorBy.id: email 
+2026-05-129 {main} INFO com.ui.pages.LoginPage Element found and now entering text 
+2026-05-129 {main} INFO com.ui.pages.LoginPage Finding element with locatorBy.id: passwd 
+2026-05-129 {main} INFO com.ui.pages.LoginPage Element found and now entering text 
+2026-05-129 {main} INFO com.ui.pages.LoginPage Finding element with locatorBy.id: SubmitLogin 
+2026-05-129 {main} INFO com.ui.pages.LoginPage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.MyAccountPage Finding element with locatorBy.id: search_query_top 
+2026-05-129 {main} INFO com.ui.pages.MyAccountPage Element found and now entering text 
+2026-05-129 {main} INFO com.ui.pages.MyAccountPage Finding element with locatorBy.id: search_query_top 
+2026-05-129 {main} INFO com.ui.pages.MyAccountPage Element found and now special key 
+2026-05-129 {main} INFO com.ui.listeners.TestListeners checkoutTest 
+2026-05-129 {main} INFO com.ui.listeners.TestListeners Verify with login user is able to buy product 
+2026-05-129 {main} INFO com.ui.listeners.TestListeners [e2e, sanity] 
+2026-05-129 {main} INFO com.ui.pages.SearchResultPage Finding All Elements with the locatorBy.xpath: //h5[@itemprop="name"]/a 
+2026-05-129 {main} INFO com.ui.pages.SearchResultPage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.ProductDetailPage Finding element with locatorBy.name: Submit 
+2026-05-129 {main} INFO com.ui.pages.ProductDetailPage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.ProductDetailPage Finding element with locatorBy.xpath: //a[@title="Proceed to checkout"] 
+2026-05-129 {main} INFO com.ui.pages.ProductDetailPage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.ShoppingCartPage Finding element with locatorBy.xpath: //p[contains(@class,"cart_navigation")]/a[@title="Proceed to checkout"] 
+2026-05-129 {main} INFO com.ui.pages.ShoppingCartPage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.ConfirmAddressPage Finding element with locatorBy.name: processAddress 
+2026-05-129 {main} INFO com.ui.pages.ConfirmAddressPage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.ShippmentPage Finding element with locatorBy.id: uniform-cgv 
+2026-05-129 {main} INFO com.ui.pages.ShippmentPage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.ShippmentPage Finding element with locatorBy.name: processCarrier 
+2026-05-129 {main} INFO com.ui.pages.ShippmentPage Element found and now performing click operation  
+2026-05-129 {main} INFO com.ui.pages.PaymentPage Finding element with locatorBy.xpath: //a[@title="Pay by bank wire"] 
+2026-05-129 {main} ERROR com.ui.listeners.TestListeners checkoutTest FAILED 
+2026-05-129 {main} ERROR com.ui.listeners.TestListeners Expected condition failed: waiting for element found by By.xpath: //a[@title="Pay by bank wire"] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="Pay by bank wire"]"}.
+(tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b99948065c0d19a1c81407bec55a0e2f, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.116, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\MANMEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62164}, goog:processID: 40800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62164/devtoo..., se:cdpVersion: 147.0.7727.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b99948065c0d19a1c81407bec55a0e2f 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners Capturing screenshot of failed tests 
-2026-05-124 {TestNG-test-UI Automation Test-1} INFO com.ui.listeners.TestListeners Attaching to the screenshot to the HTML file 
-2026-05-124 {main} INFO com.ui.listeners.TestListeners Test suite completed 
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\MANMEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55268}, goog:processID: 11688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55268/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: faeef91b0876d34d7608f228ed6c85d6 
+2026-05-129 {main} INFO com.ui.listeners.TestListeners Capturing screenshot of failed tests 
+2026-05-129 {main} INFO com.ui.listeners.TestListeners Attaching to the screenshot to the HTML file 
+2026-05-129 {main} INFO com.ui.listeners.TestListeners Test suite completed 
